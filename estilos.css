@@ -1,0 +1,126 @@
+header {
+  border-top: 20px;
+  margin-top: -20px;
+  height: 400px;
+  background: linear-gradient(to right, rgb(2, 2, 169), rgba(247, 244, 245, 0.544));
+}
+aside {
+  position: absolute;
+  top: 390px;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+main {
+  position: absolute;
+  padding-top: 10px;
+  border-radius: 10px;
+  left: 22%;
+  top: 390px;
+  width: 77%;
+  height: auto;
+  overflow: hidden;
+}
+
+nav {
+  width: 99%;
+  position: fixed;
+  height: 60px;
+  margin-top: -390PX;
+  background-color: rgb(2, 2, 169);
+}
+nav ul {
+  display: flex;
+  margin-left: 65%;
+}
+
+nav ul li {
+  margin-left: 25px;
+  list-style: none;
+  font-size: 20px;
+}
+
+header img {
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.perfil {
+  margin-top: 70px;
+  border-radius: 50%;
+  margin-left: 200px;
+  height: 300px;
+  width: 250px;
+}
+
+.desc {
+  font-size: 20px;
+  margin-left: 350px;
+  margin-right: 50px;
+  margin-top: -150px;
+  position: absolute;
+}
+.NOMBRE {
+  font-size: 50px;
+  margin-left: 500px;
+  margin-right: 50px;
+  margin-top: -200px;
+}
+.CARR {
+  margin-left: 500px;
+  margin-right: 50px;
+  margin-top: -120px;
+}
+
+section {
+  text-align: center;
+  margin-top: -20px;
+  border-radius: 50px;
+}
+section h1 {
+  font-size: 50px;
+}
+
+.acade ul {
+    display: flex;
+  }
+ 
+  
+.acade ul li {
+    margin-left: 60px;
+    list-style: none;
+    font-size: 20px;
+  }
+
+.acade img{
+    width: 180px;
+    height: 180px;
+    margin-left: 20px;
+}
+
+.lateral{
+    text-align: left;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.contacto{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.contacto ul{
+    display: flex;
+}
+.contacto ul li{
+    list-style:none ;
+}
+.contacto img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-left: -50px;
+    margin-top: -10px;
+}
